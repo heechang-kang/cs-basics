@@ -19,11 +19,11 @@ webhooks
 
 --> IntegrationBranch, TopicBranch
 
-HEAD\
-(for location) :: ~ : tilde(go back),, ^ : caret(new suggestion)\
-git checkout __ : making new branch
+HEAD
+- (for location) :: ~ : tilde(go back),, ^ : caret(new suggestion)
+- git checkout __ : making new branch
 
-git merge\
+git merge
 - git fast-forward : no change in master so just merge them
 - when master is changed : merge commit
 
